@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <style>
+
+        nav {
+
+            position: fixed;
+            top: 10;
+            left: 0;
+            
+            width: 100%;
+            height: 80px;
+
+            background-color: white;
+            border-bottom: 2px solid black;
+            box-shadow: 0 0 8px blue;
+
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            padding: 0 10px;
+
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            background-color: black;
+            margin-left: auto; /*ensures logo is on the right*/
+        }
+        .container{
+            height: 800px;
+            background-color: grey;
+
+            display: flex;
+            flex-wrap: wrap;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+        .boxes {
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            margin: 20px;
+        }
+        footer{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 80px;
+            background-color: white;
+            border-top: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class = "logo"></div>
+    </nav>
+
+    <div class = "container">
+        <div class = "boxes"></div>
+        <div class = "boxes"></div>
+        <div class = "boxes"></div>
+        <div class = "boxes"></div>
+    </div>
+
+    <footer>
+        <h1>Copyright 2024</h1>
+    </footer>
+</body>
+</html>
